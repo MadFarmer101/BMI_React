@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a84b0fe-1563-469e-b4e0-52e7fe3025b7/deploy-status)](https://app.netlify.com/sites/bmi-hunter-janko/deploys)
 
-## Available Scripts
+# BMI Calculator
+### Author   
+[Janko Radakovic](https://github.com/MadFarmer101/bmi_react.git)
+[Hunter Vitous](https://github.com/hmvitous/BMI_React.git)
+## Built with  
+React v.16.12.0, CSS   
+**Testing:** Cypress, Enzyme and Jest  
+**Deployed at:** [Netlify](https://bmi-hunter-janko.netlify.app/) 
 
-In the project directory, you can run:
+## The code   
+BMI Calculator here again. This time it lets you choose imperial method as well metric to get your BMI value. It is easy to use, simply enter your height in centimeters/inches and weight in kilograms/pounds, click on "Calculate BMI" button and you'll get your result. Good luck!
 
-### `yarn start`
+## Getting started
+### Dependencies  
+* Yarn
+* React
+* Cypress
+* Enzyme
+* Jest
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Setup   
+To test this application, fork the repo to your own GitHub account and clone it to your local workspace. </br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install all of the dependencies:    
+```
+$ yarn install
+```  
+Run the unit tests:  
+```
+$ yarn test
+```  
+Start cypress and run the feature tests:  
+```
+$ yarn run cy:open
+$ yarn start
+```
 
-### `yarn build`
+## Updates/Improvements   
+- Add styling to the page.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## License  
+[MIT-license](https://en.wikipedia.org/wiki/MIT_License)
+### Acknowledgement  
+[Craft Academy](https://craftacademy.se)  
